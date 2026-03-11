@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\bsuir\\2_sem\\KSiS\\laba_2\\My_tracert\\",
+  "WorkspaceRootPath": "D:\\2_sem\\KSiS\\for_git\\KSiS_4sem_labs\\laba_2\\My_tracert\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D37C6956-CA13-4ABF-B66C-CA055C78E323}|My_tracert\\My_tracert.vcxproj|D:\\bsuir\\2_sem\\KSiS\\laba_2\\My_tracert\\My_tracert\\My_tracert.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{D37C6956-CA13-4ABF-B66C-CA055C78E323}|My_tracert\\My_tracert.vcxproj|D:\\2_sem\\KSiS\\for_git\\KSiS_4sem_labs\\laba_2\\My_tracert\\My_tracert\\My_tracert.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D37C6956-CA13-4ABF-B66C-CA055C78E323}|My_tracert\\My_tracert.vcxproj|solutionrelative:My_tracert\\My_tracert.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -40,11 +40,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "My_tracert.cpp",
-              "DocumentMoniker": "D:\\bsuir\\2_sem\\KSiS\\laba_2\\My_tracert\\My_tracert\\My_tracert.cpp",
+              "DocumentMoniker": "D:\\2_sem\\KSiS\\for_git\\KSiS_4sem_labs\\laba_2\\My_tracert\\My_tracert\\My_tracert.cpp",
               "RelativeDocumentMoniker": "My_tracert\\My_tracert.cpp",
-              "ToolTip": "D:\\bsuir\\2_sem\\KSiS\\laba_2\\My_tracert\\My_tracert\\My_tracert.cpp",
+              "ToolTip": "D:\\2_sem\\KSiS\\for_git\\KSiS_4sem_labs\\laba_2\\My_tracert\\My_tracert\\My_tracert.cpp",
               "RelativeToolTip": "My_tracert\\My_tracert.cpp",
-              "ViewState": "AgIAAHMAAAAAAAAAAAAuwJQAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAGYAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-03-10T15:50:49.294Z",
               "EditorCaption": ""

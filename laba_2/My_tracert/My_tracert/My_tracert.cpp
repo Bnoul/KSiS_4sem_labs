@@ -100,7 +100,7 @@ int main(int argc, char* argv[]) {
     addrinfo* result = nullptr;
     int r = getaddrinfo(target.c_str(), nullptr, &hints, &result);
     if (r != 0 || !result) {
-        std::cerr << "getaddrinfo failed: " << r << "\n";
+        std::cerr << "Error ocurred: check your host name or IP adress\n";
         WSACleanup();
         return 1;
     }
@@ -144,8 +144,7 @@ int main(int argc, char* argv[]) {
             int packetLen = sizeof(IcmpHeader) + payloadLen;
             icmp->checksum = checksum(sendBuf, packetLen);
             auto start = GetTickCount();
-            int sent = sendto(sock, sendBuf, packetLen, 0,
-                (sockaddr*)&dest, sizeof(dest));
+            int sent = sendto(sock, sendBuf, packetLen, 0,(sockaddr*)&dest, sizeof(dest));
             if (sent == SOCKET_ERROR) {
                 std::cout << " * ";
                 continue;
