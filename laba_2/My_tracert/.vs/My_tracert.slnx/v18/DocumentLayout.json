@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\2_sem\\KSiS\\for_git\\KSiS_4sem_labs\\laba_2\\My_tracert\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D37C6956-CA13-4ABF-B66C-CA055C78E323}|My_tracert\\My_tracert.vcxproj|D:\\2_sem\\KSiS\\for_git\\KSiS_4sem_labs\\laba_2\\My_tracert\\My_tracert\\My_tracert.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D37C6956-CA13-4ABF-B66C-CA055C78E323}|My_tracert\\My_tracert.vcxproj|solutionrelative:My_tracert\\My_tracert.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 309,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "My_tracert.cpp",
+              "DocumentMoniker": "D:\\2_sem\\KSiS\\for_git\\KSiS_4sem_labs\\laba_2\\My_tracert\\My_tracert\\My_tracert.cpp",
+              "RelativeDocumentMoniker": "My_tracert\\My_tracert.cpp",
+              "ToolTip": "D:\\2_sem\\KSiS\\for_git\\KSiS_4sem_labs\\laba_2\\My_tracert\\My_tracert\\My_tracert.cpp",
+              "RelativeToolTip": "My_tracert\\My_tracert.cpp",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAALAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-10T15:50:49.294Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
