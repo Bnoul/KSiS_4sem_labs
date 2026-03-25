@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\bsuir\\2_sem\\KSiS\\laba_3\\laba_3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{058BA952-A370-1A07-B196-C9EA42FA4AAA}|laba_3\\laba_3.csproj|d:\\bsuir\\2_sem\\ksis\\laba_3\\laba_3\\laba_3\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{058BA952-A370-1A07-B196-C9EA42FA4AAA}|laba_3\\laba_3.csproj|solutionrelative:laba_3\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{058BA952-A370-1A07-B196-C9EA42FA4AAA}|laba_3\\laba_3.csproj|d:\\bsuir\\2_sem\\ksis\\laba_3\\laba_3\\laba_3\\net\\server_backend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{058BA952-A370-1A07-B196-C9EA42FA4AAA}|laba_3\\laba_3.csproj|solutionrelative:laba_3\\net\\server_backend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{058BA952-A370-1A07-B196-C9EA42FA4AAA}|laba_3\\laba_3.csproj|d:\\bsuir\\2_sem\\ksis\\laba_3\\laba_3\\laba_3\\net\\client_backend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{058BA952-A370-1A07-B196-C9EA42FA4AAA}|laba_3\\laba_3.csproj|solutionrelative:laba_3\\net\\client_backend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{058BA952-A370-1A07-B196-C9EA42FA4AAA}|laba_3\\laba_3.csproj|d:\\bsuir\\2_sem\\ksis\\laba_3\\laba_3\\laba_3\\client_win.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{058BA952-A370-1A07-B196-C9EA42FA4AAA}|laba_3\\laba_3.csproj|solutionrelative:laba_3\\client_win.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{058BA952-A370-1A07-B196-C9EA42FA4AAA}|laba_3\\laba_3.csproj|d:\\bsuir\\2_sem\\ksis\\laba_3\\laba_3\\laba_3\\server_win.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{058BA952-A370-1A07-B196-C9EA42FA4AAA}|laba_3\\laba_3.csproj|solutionrelative:laba_3\\server_win.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{058BA952-A370-1A07-B196-C9EA42FA4AAA}|laba_3\\laba_3.csproj|d:\\bsuir\\2_sem\\ksis\\laba_3\\laba_3\\laba_3\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{058BA952-A370-1A07-B196-C9EA42FA4AAA}|laba_3\\laba_3.csproj|solutionrelative:laba_3\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{058BA952-A370-1A07-B196-C9EA42FA4AAA}|laba_3\\laba_3.csproj|d:\\bsuir\\2_sem\\ksis\\laba_3\\laba_3\\laba_3\\client_win.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{058BA952-A370-1A07-B196-C9EA42FA4AAA}|laba_3\\laba_3.csproj|solutionrelative:laba_3\\client_win.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{058BA952-A370-1A07-B196-C9EA42FA4AAA}|laba_3\\laba_3.csproj|d:\\bsuir\\2_sem\\ksis\\laba_3\\laba_3\\laba_3\\server_win.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{058BA952-A370-1A07-B196-C9EA42FA4AAA}|laba_3\\laba_3.csproj|solutionrelative:laba_3\\server_win.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 309,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Client_win.xaml.cs",
+              "DocumentMoniker": "D:\\bsuir\\2_sem\\KSiS\\laba_3\\laba_3\\laba_3\\Client_win.xaml.cs",
+              "RelativeDocumentMoniker": "laba_3\\Client_win.xaml.cs",
+              "ToolTip": "D:\\bsuir\\2_sem\\KSiS\\laba_3\\laba_3\\laba_3\\Client_win.xaml.cs",
+              "RelativeToolTip": "laba_3\\Client_win.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T09:47:09.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Server_win.xaml.cs",
+              "DocumentMoniker": "D:\\bsuir\\2_sem\\KSiS\\laba_3\\laba_3\\laba_3\\Server_win.xaml.cs",
+              "RelativeDocumentMoniker": "laba_3\\Server_win.xaml.cs",
+              "ToolTip": "D:\\bsuir\\2_sem\\KSiS\\laba_3\\laba_3\\laba_3\\Server_win.xaml.cs",
+              "RelativeToolTip": "laba_3\\Server_win.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T09:43:08.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\bsuir\\2_sem\\KSiS\\laba_3\\laba_3\\laba_3\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "laba_3\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\bsuir\\2_sem\\KSiS\\laba_3\\laba_3\\laba_3\\MainWindow.xaml.cs",
+              "RelativeToolTip": "laba_3\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABcAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T08:58:04.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Client_backend.cs",
+              "DocumentMoniker": "D:\\bsuir\\2_sem\\KSiS\\laba_3\\laba_3\\laba_3\\Net\\Client_backend.cs",
+              "RelativeDocumentMoniker": "laba_3\\Net\\Client_backend.cs",
+              "ToolTip": "D:\\bsuir\\2_sem\\KSiS\\laba_3\\laba_3\\laba_3\\Net\\Client_backend.cs",
+              "RelativeToolTip": "laba_3\\Net\\Client_backend.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAwwAoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T09:35:08.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Server_backend.cs",
+              "DocumentMoniker": "D:\\bsuir\\2_sem\\KSiS\\laba_3\\laba_3\\laba_3\\Net\\Server_backend.cs",
+              "RelativeDocumentMoniker": "laba_3\\Net\\Server_backend.cs",
+              "ToolTip": "D:\\bsuir\\2_sem\\KSiS\\laba_3\\laba_3\\laba_3\\Net\\Server_backend.cs",
+              "RelativeToolTip": "laba_3\\Net\\Server_backend.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAIwDYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T09:34:58.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Client_win.xaml",
+              "DocumentMoniker": "D:\\bsuir\\2_sem\\KSiS\\laba_3\\laba_3\\laba_3\\Client_win.xaml",
+              "RelativeDocumentMoniker": "laba_3\\Client_win.xaml",
+              "ToolTip": "D:\\bsuir\\2_sem\\KSiS\\laba_3\\laba_3\\laba_3\\Client_win.xaml",
+              "RelativeToolTip": "laba_3\\Client_win.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-25T09:34:30.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Server_win.xaml",
+              "DocumentMoniker": "D:\\bsuir\\2_sem\\KSiS\\laba_3\\laba_3\\laba_3\\Server_win.xaml",
+              "RelativeDocumentMoniker": "laba_3\\Server_win.xaml",
+              "ToolTip": "D:\\bsuir\\2_sem\\KSiS\\laba_3\\laba_3\\laba_3\\Server_win.xaml",
+              "RelativeToolTip": "laba_3\\Server_win.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-25T09:34:11.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\bsuir\\2_sem\\KSiS\\laba_3\\laba_3\\laba_3\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "laba_3\\MainWindow.xaml",
+              "ToolTip": "D:\\bsuir\\2_sem\\KSiS\\laba_3\\laba_3\\laba_3\\MainWindow.xaml",
+              "RelativeToolTip": "laba_3\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-25T08:58:10.316Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
