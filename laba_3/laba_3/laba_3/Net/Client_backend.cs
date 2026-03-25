@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Net;
 using System.Net.Sockets;
 using System.Text;
 
@@ -7,13 +7,13 @@ namespace laba_3.Net
 {
     class Client_backend
     {
-        private TcpClient? _client;
+        private Socket? _socket;
         private bool _running;
 
         public Action<string>? Log;
         public Action? OnDisconnect;
 
-        public async Task ConnectAsync(string ip, int port)
+        public async Task ConnectAsync(string ip, int port, string localIp)
         {
             if (_running)
             {
@@ -23,8 +23,13 @@ namespace laba_3.Net
 
             try
             {
-                _client = new TcpClient();
-                await _client.ConnectAsync(ip, port);
+                _socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+
+                var localEndPoint = new IPEndPoint(IPAddress.Parse(localIp), 0);
+                _socket.Bind(localEndPoint);
+
+                var remoteEndPoint = new IPEndPoint(IPAddress.Parse(ip), port);
+                await _socket.ConnectAsync(remoteEndPoint);
             }
             catch (Exception ex)
             {
@@ -33,7 +38,7 @@ namespace laba_3.Net
             }
 
             _running = true;
-            Log?.Invoke($"Подключено к {ip}:{port}");
+            Log?.Invoke($"Подключено к {ip}:{port} (локальный IP: {localIp})");
 
             _ = ReceiveLoop();
         }
@@ -42,7 +47,12 @@ namespace laba_3.Net
         {
             _running = false;
 
-            try { _client?.Close(); } catch { }
+            try
+            {
+                _socket?.Shutdown(SocketShutdown.Both);
+                _socket?.Close();
+            }
+            catch { }
 
             Log?.Invoke("Отключено");
             OnDisconnect?.Invoke();
@@ -56,15 +66,17 @@ namespace laba_3.Net
             {
                 while (_running)
                 {
-                    int read = await _client!.GetStream().ReadAsync(buffer);
+                    int read = await _socket!.ReceiveAsync(buffer, SocketFlags.None);
                     if (read == 0)
                         break;
 
                     string msg = Encoding.UTF8.GetString(buffer, 0, read);
-                    Log?.Invoke($"[СЕРВЕР] {msg}");
+                    Log?.Invoke($"{msg}");
                 }
             }
-            catch { }
+            catch
+            {
+            }
 
             _running = false;
             OnDisconnect?.Invoke();
@@ -72,7 +84,7 @@ namespace laba_3.Net
 
         public async Task SendAsync(string msg)
         {
-            if (!_running || _client == null)
+            if (!_running || _socket == null)
             {
                 Log?.Invoke("Нет подключения");
                 return;
@@ -81,7 +93,7 @@ namespace laba_3.Net
             try
             {
                 byte[] data = Encoding.UTF8.GetBytes(msg);
-                await _client.GetStream().WriteAsync(data);
+                await _socket.SendAsync(data, SocketFlags.None);
             }
             catch (Exception ex)
             {

@@ -8,6 +8,10 @@
         Title="Client_win" Height="450" Width="800">
     <Grid>
         <StackPanel Margin="10">
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                <TextBlock Text="Мой IP:"/>
+                <ComboBox x:Name="LocalIpBox" Width="150" Margin="5,0,0,0"/>
+            </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <TextBlock Text="IP:"/>
                 <TextBox x:Name="IpBox" Width="120" Text="127.0.0.1"/>

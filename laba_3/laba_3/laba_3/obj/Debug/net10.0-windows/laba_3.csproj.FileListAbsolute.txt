@@ -22,3 +22,28 @@ D:\bsuir\2_sem\KSiS\laba_3\laba_3\laba_3\obj\Debug\net10.0-windows\refint\laba_3
 D:\bsuir\2_sem\KSiS\laba_3\laba_3\laba_3\obj\Debug\net10.0-windows\laba_3.pdb
 D:\bsuir\2_sem\KSiS\laba_3\laba_3\laba_3\obj\Debug\net10.0-windows\laba_3.genruntimeconfig.cache
 D:\bsuir\2_sem\KSiS\laba_3\laba_3\laba_3\obj\Debug\net10.0-windows\ref\laba_3.dll
+D:\bsuir\2_sem\KSiS\for git\laba_3\laba_3\laba_3\bin\Debug\net10.0-windows\laba_3.exe
+D:\bsuir\2_sem\KSiS\for git\laba_3\laba_3\laba_3\bin\Debug\net10.0-windows\laba_3.deps.json
+D:\bsuir\2_sem\KSiS\for git\laba_3\laba_3\laba_3\bin\Debug\net10.0-windows\laba_3.runtimeconfig.json
+D:\bsuir\2_sem\KSiS\for git\laba_3\laba_3\laba_3\bin\Debug\net10.0-windows\laba_3.dll
+D:\bsuir\2_sem\KSiS\for git\laba_3\laba_3\laba_3\bin\Debug\net10.0-windows\laba_3.pdb
+D:\bsuir\2_sem\KSiS\for git\laba_3\laba_3\laba_3\obj\Debug\net10.0-windows\Client_win.g.cs
+D:\bsuir\2_sem\KSiS\for git\laba_3\laba_3\laba_3\obj\Debug\net10.0-windows\MainWindow.g.cs
+D:\bsuir\2_sem\KSiS\for git\laba_3\laba_3\laba_3\obj\Debug\net10.0-windows\Server_win.g.cs
+D:\bsuir\2_sem\KSiS\for git\laba_3\laba_3\laba_3\obj\Debug\net10.0-windows\App.g.cs
+D:\bsuir\2_sem\KSiS\for git\laba_3\laba_3\laba_3\obj\Debug\net10.0-windows\laba_3_MarkupCompile.cache
+D:\bsuir\2_sem\KSiS\for git\laba_3\laba_3\laba_3\obj\Debug\net10.0-windows\laba_3_MarkupCompile.lref
+D:\bsuir\2_sem\KSiS\for git\laba_3\laba_3\laba_3\obj\Debug\net10.0-windows\Client_win.baml
+D:\bsuir\2_sem\KSiS\for git\laba_3\laba_3\laba_3\obj\Debug\net10.0-windows\MainWindow.baml
+D:\bsuir\2_sem\KSiS\for git\laba_3\laba_3\laba_3\obj\Debug\net10.0-windows\Server_win.baml
+D:\bsuir\2_sem\KSiS\for git\laba_3\laba_3\laba_3\obj\Debug\net10.0-windows\laba_3.g.resources
+D:\bsuir\2_sem\KSiS\for git\laba_3\laba_3\laba_3\obj\Debug\net10.0-windows\laba_3.GeneratedMSBuildEditorConfig.editorconfig
+D:\bsuir\2_sem\KSiS\for git\laba_3\laba_3\laba_3\obj\Debug\net10.0-windows\laba_3.AssemblyInfoInputs.cache
+D:\bsuir\2_sem\KSiS\for git\laba_3\laba_3\laba_3\obj\Debug\net10.0-windows\laba_3.AssemblyInfo.cs
+D:\bsuir\2_sem\KSiS\for git\laba_3\laba_3\laba_3\obj\Debug\net10.0-windows\laba_3.csproj.CoreCompileInputs.cache
+D:\bsuir\2_sem\KSiS\for git\laba_3\laba_3\laba_3\obj\Debug\net10.0-windows\laba_3.sourcelink.json
+D:\bsuir\2_sem\KSiS\for git\laba_3\laba_3\laba_3\obj\Debug\net10.0-windows\laba_3.dll
+D:\bsuir\2_sem\KSiS\for git\laba_3\laba_3\laba_3\obj\Debug\net10.0-windows\refint\laba_3.dll
+D:\bsuir\2_sem\KSiS\for git\laba_3\laba_3\laba_3\obj\Debug\net10.0-windows\laba_3.pdb
+D:\bsuir\2_sem\KSiS\for git\laba_3\laba_3\laba_3\obj\Debug\net10.0-windows\laba_3.genruntimeconfig.cache
+D:\bsuir\2_sem\KSiS\for git\laba_3\laba_3\laba_3\obj\Debug\net10.0-windows\ref\laba_3.dll

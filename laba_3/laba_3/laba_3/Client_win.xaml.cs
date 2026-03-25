@@ -1,5 +1,8 @@
-﻿using System;
+﻿using laba_3.Net;
+using System;
 using System.Collections.Generic;
+using System.Net;
+using System.Net.Sockets;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -9,7 +12,6 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using laba_3.Net;
 
 namespace laba_3
 {
@@ -28,18 +30,38 @@ namespace laba_3
                 Log = AddLog,
                 OnDisconnect = OnDisconnected
             };
+
+            LoadLocalIPs();
+        }
+
+        private void LoadLocalIPs()
+        {
+            var host = Dns.GetHostEntry(Dns.GetHostName());
+
+            var ips = host.AddressList
+                .Where(ip => ip.AddressFamily == AddressFamily.InterNetwork)
+                .Select(ip => ip.ToString())
+                .ToList();
+
+            if (ips.Count == 0)
+                ips.Add("0.0.0.0");
+
+            LocalIpBox.ItemsSource = ips;
+            LocalIpBox.SelectedIndex = 0;
         }
 
         private async void Connect_Click(object sender, RoutedEventArgs e)
         {
-            string ip = IpBox.Text.Trim();
+            string serverIp = IpBox.Text.Trim();
+            string localIp = LocalIpBox.SelectedItem.ToString()!;
+
             if (!int.TryParse(PortBox.Text, out int port))
             {
                 MessageBox.Show("Порт должен быть числом");
                 return;
             }
 
-            await _client.ConnectAsync(ip, port);
+            await _client.ConnectAsync(serverIp, port, localIp);
         }
 
         private void Disconnect_Click(object sender, RoutedEventArgs e)

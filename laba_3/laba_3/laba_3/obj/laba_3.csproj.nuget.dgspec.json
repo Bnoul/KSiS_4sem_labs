@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\bsuir\\2_sem\\KSiS\\laba_3\\laba_3\\laba_3\\laba_3.csproj": {}
+    "D:\\bsuir\\2_sem\\KSiS\\for git\\laba_3\\laba_3\\laba_3\\laba_3.csproj": {}
   },
   "projects": {
-    "D:\\bsuir\\2_sem\\KSiS\\laba_3\\laba_3\\laba_3\\laba_3.csproj": {
+    "D:\\bsuir\\2_sem\\KSiS\\for git\\laba_3\\laba_3\\laba_3\\laba_3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\bsuir\\2_sem\\KSiS\\laba_3\\laba_3\\laba_3\\laba_3.csproj",
+        "projectUniqueName": "D:\\bsuir\\2_sem\\KSiS\\for git\\laba_3\\laba_3\\laba_3\\laba_3.csproj",
         "projectName": "laba_3",
-        "projectPath": "D:\\bsuir\\2_sem\\KSiS\\laba_3\\laba_3\\laba_3\\laba_3.csproj",
-        "packagesPath": "C:\\Users\\Егор\\.nuget\\packages\\",
-        "outputPath": "D:\\bsuir\\2_sem\\KSiS\\laba_3\\laba_3\\laba_3\\obj\\",
+        "projectPath": "D:\\bsuir\\2_sem\\KSiS\\for git\\laba_3\\laba_3\\laba_3\\laba_3.csproj",
+        "packagesPath": "C:\\Users\\dytko\\.nuget\\packages\\",
+        "outputPath": "D:\\bsuir\\2_sem\\KSiS\\for git\\laba_3\\laba_3\\laba_3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\vs2022\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Егор\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dytko\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net10.0-windows7.0": {
@@ -68,7 +68,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

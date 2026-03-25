@@ -8,8 +8,8 @@ namespace laba_3.Net
 {
     class Server_backend
     {
-        private TcpListener? _listener;
-        private readonly List<TcpClient> _clients = new();
+        private Socket? _listener;
+        private readonly List<Socket> _clients = new();
         private bool _running;
 
         public Action<string>? Log;
@@ -24,8 +24,20 @@ namespace laba_3.Net
 
             try
             {
-                _listener = new TcpListener(IPAddress.Parse(ip), port);
-                _listener.Start();
+                IPAddress address;
+
+                if (string.IsNullOrWhiteSpace(ip) || ip == "0.0.0.0")
+                    address = IPAddress.Any;
+                else if (!IPAddress.TryParse(ip, out address))
+                {
+                    Log?.Invoke("Некорректный IP адрес");
+                    return;
+                }
+
+                _listener = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+
+                _listener.Bind(new IPEndPoint(address, port));
+                _listener.Listen(100);
             }
             catch (Exception ex)
             {
@@ -43,12 +55,19 @@ namespace laba_3.Net
         {
             _running = false;
 
-            try { _listener?.Stop(); } catch { }
+            try { _listener?.Close(); } catch { }
 
             lock (_clients)
             {
                 foreach (var c in _clients)
-                    try { c.Close(); } catch { }
+                {
+                    try
+                    {
+                        c.Shutdown(SocketShutdown.Both);
+                        c.Close();
+                    }
+                    catch { }
+                }
                 _clients.Clear();
             }
 
@@ -59,11 +78,11 @@ namespace laba_3.Net
         {
             while (_running)
             {
-                TcpClient? client = null;
+                Socket? client = null;
 
                 try
                 {
-                    client = await _listener!.AcceptTcpClientAsync();
+                    client = await _listener!.AcceptAsync();
                 }
                 catch
                 {
@@ -73,41 +92,48 @@ namespace laba_3.Net
                 lock (_clients)
                     _clients.Add(client);
 
-                Log?.Invoke($"Клиент подключился: {client.Client.RemoteEndPoint}");
+                Log?.Invoke($"Клиент подключился: {client.RemoteEndPoint}");
 
                 _ = HandleClient(client);
             }
         }
 
-        private async Task HandleClient(TcpClient client)
+        private async Task HandleClient(Socket client)
         {
-            var stream = client.GetStream();
             var buffer = new byte[4096];
 
             try
             {
                 while (_running)
                 {
-                    int read = await stream.ReadAsync(buffer);
+                    int read = await client.ReceiveAsync(buffer, SocketFlags.None);
                     if (read == 0)
                         break;
 
                     string msg = Encoding.UTF8.GetString(buffer, 0, read);
-                    Log?.Invoke($"От {client.Client.RemoteEndPoint}: {msg}");
+                    Log?.Invoke($"От {client.RemoteEndPoint}: {msg}");
 
-                    Broadcast(msg, client);
+                    Broadcast($"{((IPEndPoint)client.RemoteEndPoint).Address.ToString()}: {msg}", client);
                 }
             }
-            catch { }
+            catch
+            {
+            }
 
             lock (_clients)
                 _clients.Remove(client);
 
-            Log?.Invoke($"Клиент отключился: {client.Client.RemoteEndPoint}");
-            client.Close();
+            Log?.Invoke($"Клиент отключился: {client.RemoteEndPoint}");
+
+            try
+            {
+                client.Shutdown(SocketShutdown.Both);
+                client.Close();
+            }
+            catch { }
         }
 
-        private void Broadcast(string msg, TcpClient sender)
+        private void Broadcast(string msg, Socket sender)
         {
             byte[] data = Encoding.UTF8.GetBytes(msg);
 
@@ -119,11 +145,17 @@ namespace laba_3.Net
 
                     try
                     {
-                        c.GetStream().WriteAsync(data);
+                        c.SendAsync(data, SocketFlags.None);
                     }
                     catch
                     {
-                        try { c.Close(); } catch { }
+                        try
+                        {
+                            c.Shutdown(SocketShutdown.Both);
+                            c.Close();
+                        }
+                        catch { }
+
                         _clients.Remove(c);
                     }
                 }
