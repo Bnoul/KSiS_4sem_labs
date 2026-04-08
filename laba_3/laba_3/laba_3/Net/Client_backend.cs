@@ -13,7 +13,7 @@ namespace laba_3.Net
         public Action<string>? Log;
         public Action? OnDisconnect;
 
-        public async Task ConnectAsync(string ip, int port, string localIp)
+        public async Task ConnectAsync(string ip, int port, int client_port, string localIp)
         {
             if (_running)
             {
@@ -25,7 +25,7 @@ namespace laba_3.Net
             {
                 _socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
 
-                var localEndPoint = new IPEndPoint(IPAddress.Parse(localIp), 0);
+                var localEndPoint = new IPEndPoint(IPAddress.Parse(localIp), client_port);
                 _socket.Bind(localEndPoint);
 
                 var remoteEndPoint = new IPEndPoint(IPAddress.Parse(ip), port);
@@ -41,6 +41,17 @@ namespace laba_3.Net
             Log?.Invoke($"Подключено к {ip}:{port} (локальный IP: {localIp})");
 
             _ = ReceiveLoop();
+        }
+        public void Emerg_disconnect()
+        {
+            _running = false;
+
+            try
+            {
+                _socket?.Shutdown(SocketShutdown.Both);
+                _socket?.Close();
+            }
+            catch { }
         }
 
         public void Disconnect()

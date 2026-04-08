@@ -5,12 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:laba_3"
         mc:Ignorable="d"
-        Title="Client_win" Height="450" Width="800">
+        Title="Client_win" Height="450" Width="800" Closing="Window_Closing">
     <Grid>
         <StackPanel Margin="10">
             <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
                 <TextBlock Text="Мой IP:"/>
                 <ComboBox x:Name="LocalIpBox" Width="150" Margin="5,0,0,0"/>
+                <TextBox x:Name="client_port" TextWrapping="Wrap" Text="6000" Width="120"/>
             </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <TextBlock Text="IP:"/>

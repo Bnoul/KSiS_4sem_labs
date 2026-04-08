@@ -32,6 +32,8 @@ class Program
 
     private static void LoadBlacklist(string path)
     {
+        BlacklistDomains.Clear();
+        BlacklistUrls.Clear();
         if (!File.Exists(path))
             return;
 
