@@ -255,6 +255,7 @@ class Program
     {
         return code switch
         {
+            "100" => "CONTINUE",
             "200" => "OK",
             "301" => "MOVED",
             "302" => "FOUND",
@@ -264,6 +265,7 @@ class Program
             "403" => "FORBIDDEN",
             "404" => "NOT FOUND",
             "500" => "SERVER ERROR",
+            "501" => "NOT IMPLEMENTED",
             "502" => "BAD GATEWAY",
             "503" => "SERVICE UNAVAILABLE",
             _ => ""
