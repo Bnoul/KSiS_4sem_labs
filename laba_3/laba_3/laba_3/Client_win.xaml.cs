@@ -61,7 +61,13 @@ namespace laba_3
                 return;
             }
 
-            await _client.ConnectAsync(serverIp, port, localIp);
+            if (!int.TryParse(client_port.Text, out int port_client))
+            {
+                MessageBox.Show("Порт должен быть числом");
+                return;
+            }
+
+            await _client.ConnectAsync(serverIp, port, port_client, localIp);
         }
 
         private void Disconnect_Click(object sender, RoutedEventArgs e)
@@ -101,6 +107,11 @@ namespace laba_3
         private void Window_Closed(object sender, EventArgs e)
         {
             _client.Disconnect();
+        }
+
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            _client.Emerg_disconnect();
         }
     }
 }

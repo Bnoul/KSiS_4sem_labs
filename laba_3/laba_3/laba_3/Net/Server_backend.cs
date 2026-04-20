@@ -51,6 +51,27 @@ namespace laba_3.Net
             _ = AcceptLoop();
         }
 
+        public void Emerg_disconnect()
+        {
+            _running = false;
+
+            try { _listener?.Close(); } catch { }
+
+            lock (_clients)
+            {
+                foreach (var c in _clients)
+                {
+                    try
+                    {
+                        //c.Shutdown(SocketShutdown.Both);
+                        c.Close();
+                    }
+                    catch { }
+                }
+                _clients.Clear();
+            }
+        }
+
         public void Stop()
         {
             _running = false;

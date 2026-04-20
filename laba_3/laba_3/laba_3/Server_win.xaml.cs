@@ -54,5 +54,10 @@ namespace laba_3
         {
             _server.Stop();
         }
+
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            _server.Emerg_disconnect();
+        }
     }
 }
