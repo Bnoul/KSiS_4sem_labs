@@ -83,7 +83,7 @@ namespace laba_5
                         if (entries.Length == 0)
                         {
                             ctx.Response.StatusCode = 200;
-                            await ctx.Response.WriteAsync("Папка пуста");
+                            await ctx.Response.WriteAsync("Empty directory");
                             return;
                         }
 
@@ -98,7 +98,7 @@ namespace laba_5
                         return;
                     }
                     ctx.Response.StatusCode = 404;
-                    await ctx.Response.WriteAsync("Файл или папка не найдены");
+                    await ctx.Response.WriteAsync("File or directory not found");
                 }
                 catch (Exception ex)
                 {
@@ -116,6 +116,7 @@ namespace laba_5
                     if (!File.Exists(fullPath))
                     {
                         ctx.Response.StatusCode = 404;
+                        await ctx.Response.WriteAsync("File not found!!");
                         return;
                     }
 
@@ -164,7 +165,7 @@ namespace laba_5
                 }
             });
 
-            app.Run("http://127.0.0.2:5000");
+            app.Run("http://127.0.0.2:8542");
         }
     }
 }

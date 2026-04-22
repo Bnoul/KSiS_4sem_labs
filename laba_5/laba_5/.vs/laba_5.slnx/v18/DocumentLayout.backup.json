@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "D:\\bsuir\\2_sem\\KSiS\\laba_5\\laba_5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3E904C2B-0B32-4C8C-A27B-70BB2CD93F6A}|laba_5\\laba_5.csproj|d:\\bsuir\\2_sem\\ksis\\laba_5\\laba_5\\laba_5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E904C2B-0B32-4C8C-A27B-70BB2CD93F6A}|laba_5\\laba_5.csproj|solutionrelative:laba_5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1BE36E8-0CC9-360E-96A2-541BC3C558E4}|laba_5\\laba_5.csproj|d:\\bsuir\\2_sem\\ksis\\laba_5\\laba_5\\laba_5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1BE36E8-0CC9-360E-96A2-541BC3C558E4}|laba_5\\laba_5.csproj|solutionrelative:laba_5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1BE36E8-0CC9-360E-96A2-541BC3C558E4}|laba_5\\laba_5.csproj|d:\\bsuir\\2_sem\\ksis\\laba_5\\laba_5\\laba_5\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1BE36E8-0CC9-360E-96A2-541BC3C558E4}|laba_5\\laba_5.csproj|solutionrelative:laba_5\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 309,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,13 +42,26 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "D:\\bsuir\\2_sem\\KSiS\\laba_5\\laba_5\\laba_5\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "laba_5\\WeatherForecast.cs",
+              "ToolTip": "D:\\bsuir\\2_sem\\KSiS\\laba_5\\laba_5\\laba_5\\WeatherForecast.cs",
+              "RelativeToolTip": "laba_5\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T08:48:50.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\bsuir\\2_sem\\KSiS\\laba_5\\laba_5\\laba_5\\Program.cs",
               "RelativeDocumentMoniker": "laba_5\\Program.cs",
               "ToolTip": "D:\\bsuir\\2_sem\\KSiS\\laba_5\\laba_5\\laba_5\\Program.cs",
               "RelativeToolTip": "laba_5\\Program.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAsAAABTAAAAAAAAAA==",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAgwFUAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-20T18:14:16.073Z",
               "EditorCaption": ""

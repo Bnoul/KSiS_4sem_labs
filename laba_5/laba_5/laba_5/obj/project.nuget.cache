@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "WVKiK6KFPXY=",
+  "dgSpecHash": "mkSdCvPzkHE=",
   "success": true,
   "projectFilePath": "D:\\bsuir\\2_sem\\KSiS\\laba_5\\laba_5\\laba_5\\laba_5.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\dytko\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.5\\microsoft.aspnetcore.openapi.10.0.5.nupkg.sha512",
-    "C:\\Users\\dytko\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+    "C:\\Users\\Егор\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.5\\microsoft.aspnetcore.openapi.10.0.5.nupkg.sha512",
+    "C:\\Users\\Егор\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
   ],
   "logs": []
 }
